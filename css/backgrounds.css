@@ -1,0 +1,22 @@
+.bgpicture {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgtriangle {
+    background: -webkit-radial-gradient(50% 0%, farthest-side, #429194, #192c31);
+    background: -moz-radial-gradient(50% 0%, farthest-side, #429194, #192c31);
+    background: -ms-radial-gradient(50% 0%, farthest-side, #429194, #192c31);
+    background: radial-gradient(50% 0%, farthest-side, #429194, #192c31);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

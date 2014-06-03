@@ -1,0 +1,199 @@
+.square {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    overflow: hidden;
+}
+.square .firma {
+    position: relative;
+    font-size: 0;
+    font-family: "open_sansregular";
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    color: rgba(239, 232, 222, 0.8);
+    text-align: center;
+}
+.square .contFirma {
+    position: absolute;
+    top: 65%;
+    margin: 0em;
+    padding: 0em;
+    height: auto;
+    max-width: 350px;
+    max-height: 5%;
+    background-color: rgba(9, 45, 61, 0.8);
+    border-style: solid;
+    border-width: 0em;
+    border-color: white;
+    border-top-right-radius: 0em 0em;
+    border-bottom-left-radius: 0em 0em;
+}
+.square .titulo {
+    position: relative;
+    text-align: center;
+    font-size: 3.5vh;
+    font-family: "open_sanslight";
+    color: rgb(239, 232, 222);
+}
+.square .contTitulo {
+    position: relative;
+    width: 100%;
+    background-color: rgba(9, 45, 61, 0.8);
+    /* background-color: rgba(118,0,111,0.6); */
+    border-top-right-radius: 40px;
+    overflow: hidden;
+}
+.square .resumen {
+    position: relative;
+    text-align: justify;
+    padding: 10px;
+    font-size: 0vh;
+    font-family: "open_sansregular";
+    color: rgba(43, 63, 83, 0);
+}
+.square .footer {
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(9, 45, 61, 0.8);
+    border-bottom-left-radius: 40px;
+    overflow: hidden;
+}
+.square .imagen {
+    position: absolute;
+    display: none;
+    max-width: 350px;
+    max-height: 250px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 4px white;
+}
+.square .noticia {
+    position: relative;
+    left: 120%;
+    top: 25%;
+    padding: 5px;
+    width: 45%;
+    max-width: 500px;
+    background-color: rgba(255, 101, 99, 0.8);
+    /* background-color: rgba(18,46,62,0.9); */
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.svgLines {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 150%;
+    z-index: 5;
+}
+.rhombus {
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    z-index: 5;
+}
+.rhombus svg {
+    width: '100%';
+    height: '100%';
+    position: 'absolute';
+    z-index: 5;
+}
+.rhombus .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.rhombus .row {
+    display: table-row;
+}
+.rhombus .cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.rhombus .frameRhombus {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.rhombus .frameRhombus:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.rhombus .contentFrame {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    padding: 5%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.rhombus .frameNews {
+    width: 26.5%;
+    font-family: 'open_sanslight';
+    color: white;
+}
+.rhombus .title {
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: bold; 
+}
+.rhombus .abstract {
+    text-align: center;
+    font-size: 1.4vw;
+}
+.rhombus .frameImage {
+    width: 15%;
+}
+.rhombus .contentImage {
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    bottom: -20%;
+    right: -20%;
+    width: 140%;
+    height: 140%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rhombus .frameAuthor {
+    width: 10%;
+    font-size: 1.2vw;
+    font-family: 'open_sansregular';
+    color: white;
+}
+.rhombus .frameIndicator {
+    width: 7%;
+    font-size: 1.3vw;
+    font-family: 'open_sanslight';
+    color: white;
+}
+.rhombus .days {
+    border-bottom: 1px solid white;
+}
+.days:after {
+    content: 'dÃ­as';
+    display: block;
+    font-size: 0.8vw;
+}
+.percentage:after {
+    content: 'avance';
+    display: block;
+    font-size: 0.8vw;
+}
+.rhombus .frameDetail {
+    display: none;
+}
